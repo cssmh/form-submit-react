@@ -11,9 +11,9 @@ const SimpleForm = () => {
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" id="1" />
                 <br/>
-                <input type="password" name="password" id="2" />
+                <input type="email" name="email" id="2" />
                 <br/>
-                <input type="phone" name="phone" id="3" />
+                <input type="password" name="password" id="3" />
                 <br/>
                 <button>Submit</button>
             </form>
