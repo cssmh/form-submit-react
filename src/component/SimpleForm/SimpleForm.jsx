@@ -2,18 +2,18 @@ const SimpleForm = () => {
 
     const handleSubmit = e => {
         e.preventDefault()
-        console.log(e.target.text.value);
+        console.log(e.target.name.value);
         console.log(e.target.password.value);
     }
 
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input type="text" name="text" id="" />
+                <input type="text" name="name" id="1" />
                 <br/>
-                <input type="password" name="password" id="" />
+                <input type="password" name="password" id="2" />
                 <br/>
-                <input type="phone" name="phone" id="" />
+                <input type="phone" name="phone" id="3" />
                 <br/>
                 <button>Submit</button>
             </form>
