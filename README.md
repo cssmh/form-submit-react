@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-## Important: React Form in different way and Custom hook for Form Here!
+## Important: React Form in different ways and Custom hook for Form Here!
