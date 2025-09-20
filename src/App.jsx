@@ -1,5 +1,5 @@
-import './App.css'
-import FormSet from './HookRecap/FormSet'
+import "./App.css";
+import FormSet from "./HookRecap/FormSet";
 // import Form from './HookCustom/Form'
 // import HookForm from './component/HookForm/HookForm'
 // import RefFrom from './component/RefFrom/RefFrom'
@@ -7,7 +7,6 @@ import FormSet from './HookRecap/FormSet'
 // import StateForm from './component/StateForm/StateForm'
 
 function App() {
-
   return (
     <>
       <h2>Custom Hook For Form</h2>
@@ -18,7 +17,7 @@ function App() {
       {/* <Form></Form> */}
       <FormSet></FormSet>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
